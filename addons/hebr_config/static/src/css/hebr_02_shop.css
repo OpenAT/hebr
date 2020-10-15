@@ -82,10 +82,10 @@ ul.checkout_steps_indicator li {
     background-color: #736664;
 }
 ul.checkout_steps_indicator li:hover {
-    background-color: #ffcc01;
+    background-color: #ede1d5;
 }
 ul.checkout_steps_indicator li a:hover {
-    background-color: #ffcc01;
+    background-color: #ede1d5;
 }
 ul.checkout_steps_indicator li.active {
     background-color: white;
