@@ -112,6 +112,9 @@ div.checkout_steps_buttons {
 /* -------- */
 /* CHECKOUT */
 /* -------- */
+.has-feedback .form-control {
+    padding-right: 5px;
+}
 #wsd_checkout_form label.control-label.mandatory.text-danger {
     color: #c30000;
 }
@@ -219,4 +222,9 @@ div.checkout_steps_buttons {
 #products_grid_before .text-left small_cart_buttons,
 #products_grid_before .text-left small_cart_buttons .clearfix {
     float: right;
+}
+
+/* Error Corrections */
+.one-page-checkout #wsd-checkout-box img.img-responsive.product-image.product_detail_img {
+    width: initial;
 }
