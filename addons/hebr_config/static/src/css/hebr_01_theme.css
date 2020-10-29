@@ -50,6 +50,20 @@ main .container {
      margin-right: 0;
 }
 
+@media (min-width: 300px) {
+    .o_image_floating.o_margin_l.pull-right {
+        width: 100%;
+    }
+    /* correction minispace in mobile variante */
+    #product_detail {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    #website_sale_donate > div.row > div.col-md-12 {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+}
 /* checkoutform
 TODO Check ob diese Settings auch über BOOTSTRAP einstellbar sind
 */
@@ -165,3 +179,4 @@ body .oe_yellow {
     background-color: #ffcc01 !important;
     color: #212529;
 }
+
