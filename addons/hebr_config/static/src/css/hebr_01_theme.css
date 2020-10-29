@@ -50,7 +50,7 @@ main .container {
      margin-right: 0;
 }
 
-@media (min-width: 300px) {
+@media (max-width: 500px) {
     .o_image_floating.o_margin_l.pull-right {
         width: 100%;
     }
@@ -63,7 +63,24 @@ main .container {
         padding-left: 2px;
         padding-right: 2px;
     }
+    #description_sale .price_donate {
+    padding: 0 0 !important;
+    }
+    .price_donate .input-group-addon {
+        min-width: 50px !important;
+    }
+    .input-group-lg > .form-control,
+    .input-group-lg > .input-group-addon,
+    .input-group-lg > .input-group-btn > .btn {
+        height: 30px;
+        padding: 2px 4px;
+        font-size: 14px;
+    }
+    body .price_donate .form-control {
+        font-size: 18px !important;
+    }
 }
+
 /* checkoutform
 TODO Check ob diese Settings auch über BOOTSTRAP einstellbar sind
 */
