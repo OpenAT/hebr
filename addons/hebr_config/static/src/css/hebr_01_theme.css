@@ -79,6 +79,12 @@ main .container {
     body .price_donate .form-control {
         font-size: 18px !important;
     }
+    #wsd_checkout_form_inside_row .col-sm-12,
+    #wsd_checkout_form_inside_row .col-md-12,
+    #wsd_checkout_form_inside_row .col-lg-12 {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
 }
 
 /* checkoutform
