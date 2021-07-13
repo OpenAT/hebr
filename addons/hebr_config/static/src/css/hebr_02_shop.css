@@ -79,13 +79,13 @@ ul.checkout_steps_indicator {
     width: 100%;
 }
 ul.checkout_steps_indicator li {
-    background-color: #736664;
+    background-color: #EBE1D5;
 }
 ul.checkout_steps_indicator li:hover {
-    background-color: #ede1d5;
+    background-color: #E5D9CD;
 }
 ul.checkout_steps_indicator li a:hover {
-    background-color: #ede1d5;
+    background-color: #E5D9CD;
 }
 ul.checkout_steps_indicator li.active {
     background-color: white;
