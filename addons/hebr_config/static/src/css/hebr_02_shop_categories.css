@@ -62,6 +62,9 @@ body .col-md-12 .oe-height-2 {
     body #products_grid .oe_product section {
         background: #666666;
     }
+    .tab-content.tab-equal-heights {
+    height: auto;
+}
 }
 
 /* ab 992px */
@@ -75,4 +78,22 @@ body .col-md-12 .oe-height-2 {
     body .col-md-12 .oe-height-2 {
         height: 380px;
     }
+}
+
+#products_grid .oe_product .oe_product_image {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 80px;
+}
+#products_grid .oe_product .oe_product_image img {
+    height: 200px;
+}
+#products_grid .oe_product section {
+    background: #EAEAEA;
+    height: 80px;
+}
+
+#cart_products > thead {
+    display: none;
 }
