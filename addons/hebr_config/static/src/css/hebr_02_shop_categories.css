@@ -63,7 +63,7 @@ body .col-md-12 .oe-height-2 {
         background: #666666;
     }
     .tab-content.tab-equal-heights {
-    height: auto;
+    height: auto !important;
 }
 }
 
