@@ -11,6 +11,12 @@
     /*table.flexibleContainer {*/
     /*    width: 100% !important;*/
     /*}*/
+
+    #responsive_footer_logo {
+        max-width: 200px !important;
+        margin: auto;
+    }
+
     #combinedsnippetfooter #actionsection img.flexibleImage {
         max-width: 80px;
         width: 80px;
