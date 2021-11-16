@@ -203,13 +203,16 @@
                                                                                 <tbody>
                                                                                     <tr>
                                                                                         <td class="textContent ckediting_enabled">
-                                                                                            <p style="text-align: center;">
+                                                                                            <p style="text-align: center; line-height:42px;">
+                                                                                                <t t-set="ol_social_spacer"><![CDATA[<!--[if lt mso 16]>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->]]></t>
                                                                                                 <a href="https://www.facebook.com/herzensbruecken/" target="_blank" style="display: inline-block; text-decoration: none;">
                                                                                                     <img src="/fso_website_email_hebr/static/src/icons/FB-Button.png" alt="" vspace="10" hspace="10" style="width:32px; margin: 0 20px; border:0 none;"/>
                                                                                                 </a>
+                                                                                                <t t-raw="ol_social_spacer"></t>
                                                                                                 <a href="https://www.instagram.com/herzensbruecken/" target="_blank" style="display: inline-block; text-decoration: none;">
                                                                                                     <img src="/fso_website_email_hebr/static/src/icons/IG-Button.png" alt="" vspace="10" hspace="10" style="width:32px; margin: 0 20px; border:0 none;" />
                                                                                                 </a>
+                                                                                                <t t-raw="ol_social_spacer"></t>
                                                                                                 <a href="https://www.youtube.com/channel/UClaWLAVNnLv-QWicVUv3wUA" target="_blank" style="display: inline-block; text-decoration: none;">
                                                                                                     <img src="/fso_website_email_hebr/static/src/icons/YouTube-Button.png" alt="" vspace="10" hspace="10" style="width:32px; margin: 0 20px; border:0 none;"/>
                                                                                                 </a>
