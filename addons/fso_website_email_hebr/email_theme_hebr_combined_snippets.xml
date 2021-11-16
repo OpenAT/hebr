@@ -291,7 +291,7 @@
                                                                                                             class="imageContent ckediting_enabled"
                                                                                                             valign="top"
                                                                                                             contenteditable="true">
-                                                                                                            <img id="responsive_footer_logo" src="/fso_website_email_hebr/static/src/img/hebr_logo.png" width="230" alt="Herzensbrücken" style="display: block; border: 0px; outline: none; width: 100%; height: auto; max-height: 85px; max-width: 230px;" class="flexibleImage"/>
+                                                                                                            <img id="responsive_footer_logo" src="/fso_website_email_hebr/static/src/img/hebr_logo.png" width="200" alt="Herzensbrücken" style="display: block; border: 0px; outline: none; width: 100%; height: auto; max-height: 85px; max-width: 200px;" class="flexibleImage"/>
                                                                                                             <p style="text-align: center; font-size: 12px; margin-top: 3px;">
                                                                                                                 Die Arche Herzensbrücken ist eine<br></br>
                                                                                                                 Raststätte und ein Rückzugsort für schwer erkrankte Kinder und ihre Familien.<br></br>
